@@ -17,32 +17,12 @@
             <StackLayout>
                 <StackLayout Orientation="Horizontal" Padding="5"  BackgroundColor="Gray">
                     <Image Source="Burger.png" HeightRequest="20" WidthRequest="20"></Image>
-                    <Button Clicked="ButtonMenu_OnClicked" Image="Burger.png" Text="Manu" />
+                    <Button Image="Burger.png" Text="Manu" />
                 </StackLayout>
                 <StackLayout>
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition />
-                            <ColumnDefinition />
-                        </Grid.ColumnDefinitions>
-                        <Grid.RowDefinitions>
-                            <RowDefinition />
-                            <RowDefinition />
-                        </Grid.RowDefinitions>
-                    </Grid>
                 </StackLayout>
             </StackLayout>
         </ContentPage>
         </MasterDetailPage.Detail>
     
 </MasterDetailPage>
-             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
-             x:Class="GoSmoke.MainPage"
-             
-             
-             >
-    
-    
-        
-    
-</ContentPage>

@@ -15,10 +15,5 @@ namespace GoSmoke
 			InitializeComponent();
 
         }
-        void ButtonMenu_OnClicked(object sender, EventArgs args)
-        {
-            this.BackgroundColor = Color.Brown;
-        }
-
     }
 }
