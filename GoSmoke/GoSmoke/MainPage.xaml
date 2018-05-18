@@ -4,7 +4,6 @@
              xmlns:local="clr-namespace:GoSmoke"
              x:Class="GoSmoke.MainPage"
                   Title="Main Page" >
-        
     <MasterDetailPage.Master>
         <ContentPage Padding="5,10,5,10" Title="Master">
             <StackLayout>
@@ -33,6 +32,5 @@
                 </StackLayout>
             </StackLayout>
         </ContentPage>
-        </MasterDetailPage.Detail>
-    
+    </MasterDetailPage.Detail>
 </MasterDetailPage>
