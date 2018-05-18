@@ -2,10 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:GoSmoke"
-             x:Class="GoSmoke.MainPage" >
-        <Label Text="IS Xamarin and Mykola"
-               FontSize="20"
-               HorizontalTextAlignment="Center"
-               VerticalTextAlignment="Center"></Label>
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             x:Class="GoSmoke.MainPage"
+             
+             
+             >
+    
+    
+        
     
 </ContentPage>
