@@ -15,7 +15,7 @@
         <ContentPage Title="Detail">
             <StackLayout>
                 <StackLayout Orientation="Horizontal" Padding="5"  BackgroundColor="Gray">
-                    <Label Text="Detail" BackgroundColor=""></Label>
+                    <Label Text="Detail" BackgroundColor="Aqua"></Label>
                     <!--<Image Source="Burger.png" HeightRequest="20" WidthRequest="20"></Image>
                     <Button Clicked="ButtonMenu_OnClicked" Image="Burger.png" Text="Manu" />-->
                 </StackLayout>
