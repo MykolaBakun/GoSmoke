@@ -1,7 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:GoSmoke"
+             x:Class="GoSmoke.MainPage"
+                  Title="Main Page" >
+        
+    <MasterDetailPage.Master>
+        <ContentPage Padding="5,10,5,10" Title="Master">
+            <StackLayout>
+                <Label Text="Master" BackgroundColor="Aqua"></Label>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <ContentPage Title="Detail">
+            <StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="5"  BackgroundColor="Gray">
+                    <Image Source="Burger.png" HeightRequest="20" WidthRequest="20"></Image>
+                    <Button Clicked="ButtonMenu_OnClicked" Image="Burger.png" Text="Manu" />
+                </StackLayout>
+                <StackLayout>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                    </Grid>
+                </StackLayout>
+            </StackLayout>
+        </ContentPage>
+        </MasterDetailPage.Detail>
+    
+</MasterDetailPage>
              xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              x:Class="GoSmoke.MainPage"
              
